@@ -1,0 +1,428 @@
+body {
+  background-color: #002BFF;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*General font styles*/
+h1 {
+    color: #DBFFFF;
+    font-family: "Archivo Black";
+    font-size: 70px;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 946px;
+}
+.subhead {
+    color: #DBFFFF;
+    font-family: "Archivo Black";
+    font-size: 40px;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    width: 946px;
+    margin-bottom: 5px;
+}
+h2 {
+    color: #DBFFFF;
+    font-family: "Archivo Black";
+    font-size: 36px;
+    font-style: normal;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: .75;
+}
+h3 {
+    color: #DBFFFF;
+    font-family: "Archivo Black";
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+p {
+    color: #DBFFFF;
+    font-family: "Archivo";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+/*Site nav styles*/
+.navbar {
+    background-color: #002BFF;
+}
+
+.nav-link {
+    color: #DBFFFF;
+    font-family: "Archivo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.nav-link:hover {
+    color: #DBFFFF;
+    font-style: italic;
+}
+
+.nav-link:active {
+    color: #DBFFFF;
+    font-style: italic;
+}
+
+.nav-link:visited {
+    color: #DBFFFF;
+}
+
+.nav-item dropdown {
+    color: #DBFFFF;
+    font-family: "Archivo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.dropdown-menu {
+    background-color: #002BFF;
+    border-radius: 0;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    position: absolute;
+    right: 2%;
+    text-align: center;
+}
+
+.dropdown-item {
+    color: #DBFFFF;
+    font-family: "Archivo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+    color: #DBFFFF;
+    font-style: italic;
+}
+
+.dropdown:hover .dropdown-menu {
+      display: block;
+}
+
+/*Page nav styles*/
+.nav {
+    background-color: #002BFF;
+}
+
+/*Content styles*/
+.titleSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.coverPhoto {
+    width: 100%;
+    margin-bottom: 20px;
+}
+#mainImage {
+    width: 100%;
+}
+.col-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.col-10 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-right: 12%;
+}
+.dot {
+    height: 35px;
+    width: 35px;
+    background-color: #DBFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+.line {
+    border-right: 3px solid #DBFFFF;
+    height: 100%;
+    margin-right: 15px;
+}
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.section {
+    margin-bottom: 30px;
+}
+.firstSection {
+    margin-top: 30px;
+}
+.finalSection {
+    margin-bottom: 100px;
+}
+.withImage {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+video {
+    border-radius: 38px;
+    width: 270px;
+}
+.contentOnly {
+    margin-right: 50px;
+}
+li {
+    color: #DBFFFF;
+    font-family: "Archivo";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal; 
+}
+.image {
+    text-align: center;
+}
+video {
+    width: 270px;
+}
+.methodology {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: stretch;
+    gap: 20px;
+    width: 100%;
+}
+.methodologyTag {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #DBFFFF;
+    color: #002BFF;
+    font-family: "Archivo Black";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#finalImage {
+    width: 100%;
+    height: auto;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+button {
+    display: flex;
+    width: 414.235px;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Archivo Black";
+    font-size: 22px;
+    font-style: normal;
+    border-radius: 50px;
+    background: #DBFFFF;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.25), 10px 4px 25px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: #002BFF;
+}
+button:hover {
+    box-shadow: 0px 20px 50px 0px rgba(219, 255, 255, 0.25), 20px 4px 50px 0px rgba(219, 255, 255, 0.25), 0px 4px 4px 0px rgba(219, 255, 255, 0.25);
+}
+#buttonRow {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+/* Footer styles start here */
+footer {
+    background-color: #F6FFEA;
+    margin-top: 5%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+.pages {
+    width: 80%;
+    margin: 0%;
+    padding-right: 1%;
+    vertical-align: middle;
+}
+.location {
+    width: 15%;
+    margin-left: auto;
+    text-align: end;
+    font-size: 12px;
+    color: #002BFF;
+    vertical-align: middle;
+    font-family: "Archivo Black";
+    font-style: normal;
+    line-height: normal;
+    padding-bottom: 2%;
+}
+.footerItem {
+    font-family: "Archivo";
+    font-weight: 100;
+    font-size: 12px;
+    color: #002BFF;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footerItem:hover {
+    text-decoration: underline;
+}
+
+/*Tablet styles here*/
+@media screen and (max-width: 1023px) {
+h1 {
+    color: #DBFFFF;
+    font-family: "Archivo Black";
+    font-size: 70px;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 684px;
+}
+.subhead {
+    color: #DBFFFF;
+    font-family: "Archivo Black";
+    font-size: 40px;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    width: 684px;
+    margin-bottom: 5px;
+}
+.col-10 {
+    padding-right: 8%;
+}
+.withImage {
+    flex-direction: column;
+    align-items: center;
+}
+video {
+    width: 270px;
+}
+}
+/*Mobile styles here*/
+@media screen and (max-width: 743px) {
+  h1 {
+    color: #DBFFFF;
+    font-family: "Archivo Black";
+    font-size: 50px;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 300px;
+}
+.subhead {
+    color: #DBFFFF;
+    font-family: "Archivo Black";
+    font-size: 30px;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 5px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 20px;
+}
+p {
+    font-size: 16px;
+}
+.contentContainer {
+}
+.withImage {
+    flex-direction: column;
+}
+.methodology {
+    justify-content: center;
+}
+.methodologyTag {
+    font-size: 14px;
+}
+#finalImage {
+}
+.buttonContainer {
+    padding-bottom: 70px;
+}
+button {
+    width: 270px;
+    height: 60px;
+    padding: 20px 30px;
+    font-size: 14px;
+    margin: 0;
+}
+.finalSection {
+    margin-bottom: 50px;
+}
+footer {
+    background-color: #002BFF;
+    margin-top: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+.pages {
+    width: 70%;
+    margin: 0%;
+    padding-right: 0%;
+    padding-left: 3%;
+    vertical-align: middle;
+}
+.location {
+    width: 20%;
+    margin-left: auto;
+    text-align: end;
+    font-family: "Archivo Black";
+    font-size: 12px;
+    color: #F6FFEA;
+    vertical-align: middle;
+}
+.footerItem {
+    font-family: "Archivo";
+    font-weight: 100;
+    font-size: 12px;
+    color: #F6FFEA;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+    margin-left: -12%;
+}
+}
