@@ -132,7 +132,31 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
     
+}
+#icon1 {
+    position: absolute;
+    left: 5%;
+    top: 12%;
+}
+#icon2 {
+    position: absolute;
+    left: 20%;
+    top: 80%;
+    animation: iconSpin 2s infinite;
+}
+@keyframes iconSpin {
+    50% {transform: rotate(0deg)}
+    60% {transform: rotate(45deg)}
+    80% {transform: rotate(45deg)}
+    90% {transform: rotate(0deg)}
+}
+#icon3 {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    animation: iconSpin 2s infinite;
 }
 .coverPhoto {
     width: 100%;
@@ -262,30 +286,34 @@ button:hover {
 }
 /* Footer styles start here */
 footer {
-    background-color: #F6FFEA;
-    margin-top: 5%;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
+    background-color: #DBFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 .pages {
-    width: 80%;
-    margin: 0%;
-    padding-right: 1%;
-    vertical-align: middle;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
 }
 .location {
-    width: 15%;
-    margin-left: auto;
-    text-align: end;
     font-size: 12px;
     color: #002BFF;
-    vertical-align: middle;
     font-family: "Archivo Black";
     font-style: normal;
     line-height: normal;
-    padding-bottom: 2%;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 25%;
 }
 .footerItem {
     font-family: "Archivo";
@@ -297,6 +325,43 @@ footer {
 }
 .footerItem:hover {
     text-decoration: underline;
+}
+
+/*Jump link styles here*/
+#top {
+    position: relative;
+}
+#anchorTop {
+    position: absolute;
+    top:-200px;
+}
+#overview {
+    position: relative;
+}
+#anchorOverview {
+    position: absolute;
+    top:-150px;
+}
+#methodology {
+    position: relative;
+}
+#anchorMethodology {
+    position: absolute;
+    top:-150px;
+}
+#excerpts {
+    position: relative;
+}
+#anchorExcerpts {
+    position: absolute;
+    top:-150px;
+}
+#final {
+    position: relative;
+}
+#anchorFinal {
+    position: absolute;
+    top:-150px;
 }
 
 /*Tablet styles here*/
@@ -370,6 +435,9 @@ p {
 .withImage {
     flex-direction: column;
 }
+video {
+    width: 250px;
+}
 .methodology {
     justify-content: center;
 }
@@ -392,37 +460,27 @@ button {
     margin-bottom: 50px;
 }
 footer {
-    background-color: #002BFF;
-    margin-top: auto;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
+    flex-direction: column;
 }
 .pages {
-    width: 70%;
-    margin: 0%;
-    padding-right: 0%;
-    padding-left: 3%;
-    vertical-align: middle;
+    width: 100%;
+    margin-bottom: 2%;
+    justify-content: center;
 }
 .location {
-    width: 20%;
-    margin-left: auto;
-    text-align: end;
-    font-family: "Archivo Black";
-    font-size: 12px;
-    color: #F6FFEA;
-    vertical-align: middle;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1%;
 }
-.footerItem {
-    font-family: "Archivo";
-    font-weight: 100;
-    font-size: 12px;
-    color: #F6FFEA;
-    padding-left: 0px;
-    padding-right: 0px;
-    display: block;
-    margin-left: -12%;
+#icon2 {
+    position: absolute;
+    left: 70%;
+    top: 120%;
+}
+#icon1 {
+    animation: iconSpin 2s infinite;
+}
+#icon3 {
+    animation: none;  
 }
 }

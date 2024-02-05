@@ -19,6 +19,7 @@
     
 <body>
 <div class="sticky-top">
+    
 <!---Site navigation bar--->
 <nav class="navbar navbar-expand">
   <div class="container-fluid">
@@ -47,28 +48,31 @@
 </nav>
 
 <!---Page navigation bar--->
-<ul class="nav justify-content-center"> 
+<ul class="nav justify-content-center" id="pageNav"> 
     <li class="nav-item">
-        <a class="nav-link" href="#">&#8593;</a>
+        <a class="nav-link" href="#anchorTop">&#8593;</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">Overview</a>
+        <a class="nav-link" href="#anchorOverview">Overview</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">Methodology</a>
+        <a class="nav-link" href="#anchorMethodology">Methodology</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">Excerpts</a>
+        <a class="nav-link" href="#anchorExcerpts">Excerpts</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">Final designs</a>
+        <a class="nav-link" href="#anchorFinal">Final designs</a>
     </li>
 </ul>
 </div>
 <!---begin content--->
 <div class="titleSection">
-    <h1>eBay site-wide currency conversion</h1>
+    <h1 id="top"><span id="anchorTop"></span>eBay site-wide currency conversion</h1>
     <div class="subhead">Content design</div>
+    <img src="Images/Doodle%20light%20static.png" id="icon1">
+    <img src="Images/Doodle%20light%20static.png" id="icon2">
+    <img src="Images/Doodle%20light%20static.png" id="icon3">
 </div>
 <div class="coverPhoto">
     <picture>
@@ -85,7 +89,7 @@
         <span class="dot"></span>
     </div>
     <div class="col-10">
-        <h2>Overview</h2>
+        <h2 id="overview"><span  id="anchorOverview"></span>Overview</h2>
     </div>
   </div>
   <div class="row">
@@ -144,7 +148,7 @@
         <span class="dot"></span>
     </div>
     <div class="col-10">
-        <h2>Methodology</h2>
+        <h2 id=methodology><span id="anchorMethodology"></span>Methodology</h2>
     </div>
   </div>
   <div class="row">
@@ -175,7 +179,7 @@
         <span class="dot"></span>
     </div>
     <div class="col-10">
-        <h2>Excerpts</h2>
+        <h2 id="excerpts"><span id="anchorExcerpts"></span>Excerpts</h2>
     </div>
   </div>
   <div class="row">
@@ -244,7 +248,7 @@
         <span class="dot"></span>
     </div>
     <div class="col-10">
-        <h2>Final designs</h2>
+        <h2 id="final"><span id="anchorFinal"></span>Final designs</h2>
     </div>
   </div>
   <div class="row">
@@ -287,22 +291,19 @@
 
 <!---Footer starts here--->
 <footer>
-    <div class="inline-block pages"> <!---for footer items--->
-        <ul>
-            <li class="inline-block footerItem">About</li>
-            <li class="inline-block footerItem">eBay currency conversion</li>
-            <li class="inline-block footerItem">Pocket Local mobile app</li>
-            <li class="inline-block footerItem">Crossroads redesign</li>
-            <li class="inline-block footerItem">Extras and snippets</li>
-        </ul>
+    <div class="pages"> <!---for footer items--->
+            <div class="footerItem">About</div>
+            <div class="footerItem">eBay currency conversion</div>
+            <div class="footerItem">Pocket Local mobile app</div>
+            <div class="footerItem">Crossroads redesign</div>
+            <div class="footerItem">Extras and snippets</div>
     </div>
-    <div class="inline-block location"> <!---for city--->
+    <div class="location"> <!---for city--->
         <div>Salt Lake City, UT</div>
     </div>
 </footer> 
     
 </body>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    
+
 </html>
