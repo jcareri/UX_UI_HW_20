@@ -1,0 +1,576 @@
+body {
+  background-color: #002BFF;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.main-content {
+    min-height: calc(100vh - 135px);
+    z-index: 100;
+    background-color: #002BFF;
+    position: relative;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1280px;
+}
+/*General font styles*/
+h1 {
+    color: #DBFFFF;
+    font-family: "Archivo Black";
+    font-size: 70px;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 946px;
+}
+.subhead {
+    color: #DBFFFF;
+    font-family: "Archivo Black";
+    font-size: 40px;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    width: 946px;
+    margin-bottom: 5px;
+}
+h2 {
+    color: #DBFFFF;
+    font-family: "Archivo Black";
+    font-size: 36px;
+    font-style: normal;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: .75;
+}
+h3 {
+    color: #DBFFFF;
+    font-family: "Archivo Black";
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+p {
+    color: #DBFFFF;
+    font-family: "Archivo";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+/*Site nav styles*/
+.navbar {
+    background-color: #002BFF;
+}
+
+.nav-link {
+    color: #DBFFFF;
+    font-family: "Archivo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.nav-link:hover {
+    color: #DBFFFF;
+    font-style: italic;
+}
+
+.nav-link:active {
+    color: #DBFFFF;
+    font-style: italic;
+}
+
+.nav-link:visited {
+    color: #DBFFFF;
+}
+
+.nav-item dropdown {
+    color: #DBFFFF;
+    font-family: "Archivo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.dropdown-menu {
+    background-color: #002BFF;
+    border-radius: 0;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    position: absolute;
+    right: 2%;
+    text-align: center;
+}
+
+.dropdown-item {
+    color: #DBFFFF;
+    font-family: "Archivo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+    color: #DBFFFF;
+    font-style: italic;
+}
+
+.dropdown:hover .dropdown-menu {
+      display: block;
+}
+
+/*Page nav styles*/
+.nav {
+    background-color: #002BFF;
+}
+.nav-item {
+    padding: 5px 10px;
+}
+
+/*Content styles*/
+.titleSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+#icon1 {
+    position: absolute;
+    left: 5%;
+    top: 12%;
+    animation: iconGlow 5s infinite;
+    animation-delay: 2.5s;
+}
+#icon2 {
+    position: absolute;
+    left: 20%;
+    top: 80%;
+    animation: iconGlow 5s infinite;
+}
+@keyframes iconGlow {
+    50% {opacity: 0}
+    100% {opacity: 100}
+}
+#icon3 {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    animation: iconGlow 5s infinite;
+    animation-delay: 2.5s;
+}
+.coverPhoto {
+    width: 100%;
+    margin-bottom: 20px;
+}
+#mainImage {
+    width: 100%;
+}
+.col-sm-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.col-sm-10 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-right: 12%;
+}
+.dot {
+    height: 35px;
+    width: 35px;
+    background-color: #DBFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+.line {
+    border-right: 3px solid #DBFFFF;
+    height: 100%;
+    margin-right: 15px;
+}
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.section {
+    margin-bottom: 30px;
+}
+.firstSection {
+    margin-top: 30px;
+}
+.finalSection {
+    margin-bottom: 100px;
+}
+.withImage {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+video {
+    border-radius: 38px;
+    width: 270px;
+}
+.contentOnly {
+    margin-right: 50px;
+}
+li {
+    color: #DBFFFF;
+    font-family: "Archivo";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal; 
+}
+.image {
+    text-align: center;
+}
+video {
+    width: 270px;
+}
+.methodology {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: stretch;
+    gap: 20px;
+    width: 100%;
+}
+.methodologyTag {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #DBFFFF;
+    color: #002BFF;
+    font-family: "Archivo Black";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#finalImage {
+    width: 100%;
+    height: auto;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+button {
+    display: flex;
+    width: 414.235px;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Archivo Black";
+    font-style: normal;
+    font-size: 22px !important;
+    border-radius: 50px;
+    background: #DBFFFF;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.25), 10px 4px 25px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: #002BFF;
+    text-decoration: none;
+}
+button:hover {
+    box-shadow: 0px 20px 50px 0px rgba(219, 255, 255, 0.25), 20px 4px 50px 0px rgba(219, 255, 255, 0.25), 0px 4px 4px 0px rgba(219, 255, 255, 0.25);
+}
+#caseStudy {
+   text-decoration: none;
+}
+#buttonRow {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+/* Footer styles start here */
+.footer-section {
+    position: relative;
+    z-index: 1;
+    min-height: 392px;
+}
+.footer-section .footer-content {
+    background-color: #DBFFFF;
+    padding: 50px 0px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 90;
+    left: 0px;
+}
+.footer-link {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 37.17px;
+    font-family: "Archivo Black", sans-serif;
+    margin-bottom: 24px;
+    color: #002BFF;
+}
+.footer-link a {
+    color: #002BFF;
+    text-decoration: none;
+}
+.footer-link:hover {
+    text-decoration: underline;
+}
+.footer-content .footer-link:last-child a {
+    margin-bottom: 0px;
+}
+.footer-content  .right-content-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+    height: 100%;
+    color: #002BFF;
+    text-align: end;
+}
+.contact-info a {
+    font-weight: 700;
+    line-height: 21.76px;
+    font-family: "Archivo Black", sans-serif;
+    color: #002BFF;
+    text-decoration: none;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
+.bottom-content {
+    font-family: "Archivo", sans-serif;
+    font-weight: 200;
+    color: #002BFF;
+}
+.mobile-footer {
+    display: none;
+}
+
+/*Jump link styles here*/
+#top {
+    position: relative;
+}
+#anchorTop {
+    position: absolute;
+    top:-200px;
+}
+#overview {
+    position: relative;
+}
+#anchorOverview {
+    position: absolute;
+    top:-150px;
+}
+#methodology {
+    position: relative;
+}
+#anchorMethodology {
+    position: absolute;
+    top:-150px;
+}
+#excerpts {
+    position: relative;
+}
+#anchorExcerpts {
+    position: absolute;
+    top:-150px;
+}
+#final {
+    position: relative;
+}
+#anchorFinal {
+    position: absolute;
+    top:-150px;
+}
+
+/*Tablet styles here*/
+@media screen and (max-width: 1023px) {
+h1 {
+    color: #DBFFFF;
+    font-family: "Archivo Black";
+    font-size: 70px;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 684px;
+}
+.subhead {
+    color: #DBFFFF;
+    font-family: "Archivo Black";
+    font-size: 40px;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    width: 684px;
+    margin-bottom: 5px;
+}
+.col-10 {
+    padding-right: 8%;
+}
+.withImage {
+    flex-direction: column;
+    align-items: center;
+}
+video {
+    width: 270px;
+}
+.footer-link {
+    line-height: 20px;
+}
+.footer-content .footer-link a {
+    font-size: 25px;
+ }
+}
+/*Mobile styles here*/
+@media screen and (max-width: 743px) {
+.nav-item {
+    padding: 10px 0px;
+}
+h1 {
+    color: #DBFFFF;
+    font-family: "Archivo Black";
+    font-size: 50px;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 300px;
+}
+.subhead {
+    color: #DBFFFF;
+    font-family: "Archivo Black";
+    font-size: 30px;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 5px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 20px;
+}
+p {
+    font-size: 16px;
+}
+li {
+    font-size: 16px;    
+}
+.contentContainer {
+}
+.withImage {
+    flex-direction: column;
+}
+video {
+    width: 250px;
+}
+.methodology {
+    justify-content: center;
+}
+.methodologyTag {
+    font-size: 14px;
+}
+#finalImage {
+}
+.buttonContainer {
+    padding-bottom: 70px;
+}
+button {
+    width: 270px;
+    height: 60px;
+    padding: 20px 30px;
+    font-size: 14px !important;
+    margin-bottom: 70px;
+}
+.finalSection {
+    margin-bottom: 50px;
+}
+.pages {
+    width: 100%;
+    margin-bottom: 2%;
+    justify-content: center;
+}
+.location {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+#icon2 {
+    position: absolute;
+    left: 70%;
+    top: 120%;
+}
+#icon1 {
+    animation: iconSpin 2s infinite;
+}
+#icon3 {
+    animation: none;  
+}
+.footer-section {
+    min-height: 170px;
+}
+.footer-links {
+    display: none;  
+}
+.mobile-footer {
+    display: initial;
+    color: #002BFF;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #DBFFFF;
+}
+.mobile-link {
+    padding: 7px 5px;
+    font-family: "Archivo Black", sans-serif;
+    color: #002BFF;
+    font-size: 12px;
+    text-decoration: none;
+}
+.mobile-link:hover {
+    text-decoration: underline;
+    color: #002BFF;
+}
+.top-content {
+    display: none;
+}
+.bottom-content {
+    text-align: center;
+    font-size: 12px;
+}
+.col-0 {
+    display: none;
+}
+.dot {
+    display: none;
+}
+.col-12 {
+    padding: 0 8%;
+    margin: 0;
+    width: 100%;
+}
+}
